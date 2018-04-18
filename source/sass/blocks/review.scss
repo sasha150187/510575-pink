@@ -1,0 +1,27 @@
+$review-name-family:'Open Sans', sans-serif;
+$review-name-size: 18px;
+$review-name-lheight: 30px;
+$review-name-color: #000000;
+$review-name-weight: 700;
+$review-txt-family:'Open Sans', sans-serif;
+$review-txt-size: 14px;
+$review-txt-lheight: 24px;
+$review-txt-color: #000000;
+$review-txt-weight: 300;
+
+
+.review__author-name {
+  font-family: $review-name-family;
+  font-size: $review-name-size;
+  line-height: $review-name-lheight;
+  color: $review-name-color;
+  font-weight: $review-name-weight;
+ }
+
+.review__text {
+  font-family: $review-txt-family;
+  font-size: $review-txt-size;
+  line-height: $review-txt-lheight;
+  color: $review-txt-color;
+  font-weight: $review-txt-weight;
+ }

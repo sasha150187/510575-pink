@@ -1,0 +1,19 @@
+$bg-header: url("../../img/bg-back-mobile@1x.jpg");
+$ttl-family:'Open Sans', sans-serif;
+$ttl-size: 24px;
+$ttl-lheight: 24px;
+$ttl-color: #ffffff;
+$ttl-weight: 300;
+
+
+.form-header {
+  background-image: $bg-header;
+}
+
+.form-header__competition-title {
+  font-family: $ttl-family;
+  font-size: $ttl-size;
+  line-height: $ttl-lheight;
+  color: $ttl-color;
+  font-weight: $ttl-weight;
+}

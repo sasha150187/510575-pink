@@ -1,0 +1,52 @@
+$bg-color: #283645;
+$bg-shape: url("../../img/price-shape.png");
+$tarif-family:'Open Sans', sans-serif;
+$tarif-size: 18px;
+$tarif-lheight: 30px;
+$tarif-color: #ffffff;
+$tarif-weight: 700;
+$value-family:'Open Sans', sans-serif;
+$value-size: 24px;
+$value-lheight: 30px;
+$value-color: #ffffff;
+$value-weight: 300;
+$pink-family:'Open Sans', sans-serif;
+$pink-size: 18px;
+$pink-lheight: 30px;
+$pink-color: #ffffff;
+$pink-weight: 400;
+
+
+.price__header {
+  background-color: $bg-color;
+}
+
+.price__list {
+  background-image: $bg-shape;
+}
+
+.price__tariff {
+  font-family: $tarif-family;
+  font-size: $tarif-size;
+  line-height: $tarif-lheight;
+  color: $tarif-color;
+  font-weight: $tarif-weight;
+}
+
+.price__value {
+  font-family: $value-family;
+  font-size: $value-size;
+  line-height: $value-lheight;
+  color: $value-color;
+  font-weight: $value-weight;
+}
+
+.price__pink,
+.price__smile,
+.price__comments {
+  font-family: $pink-family;
+  font-size: $pink-size;
+  line-height: $pink-lheight;
+  color: $pink-color;
+  font-weight: $pink-weight;
+}
