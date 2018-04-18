@@ -1,0 +1,14 @@
+$txt-family:'Open Sans', sans-serif;
+$txt-size: 14px;
+$txt-lheight: 30px;
+$txt-color: #283645;
+$txt-weight: 300;
+
+
+.competition-text {
+  font-family: $txt-family;
+  font-size: $txt-size;
+  line-height: $txt-lheight;
+  color: $txt-color;
+  font-weight: $txt-weight;
+}
