@@ -1,0 +1,26 @@
+$bg-shape: url("../../img/description-bg.png");
+$bg-image: url("../../img/iphone-screen-mobile@1x.png");
+$description-family:'Open Sans', sans-serif;
+$description-size: 24px;
+$description-lheight: 24px;
+$description-weight: #283645;
+$description-weight: 300;
+$descr-ttl-family:'Open Sans', sans-serif;
+$descr-ttl-size: ;
+$descr-ttl-lheight: ;
+$descr-ttl-lheight: ;
+$descr-ttl-weight: ;
+
+
+.description__list {
+  background-image: $bg-shape, $bg-image;
+}
+
+.description__question,
+.description__offer {
+  font-family: $description-family;
+  font-size: $description-size;
+  line-height: $description-lheight;
+  color: $description-weight;
+  font-weight: $description-weight;
+}

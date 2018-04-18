@@ -1,0 +1,18 @@
+$bg-list: #283645;
+$sitelist-family: 'Open Sans', sans-serif;
+$sitelist-size: 18px;
+$sitelist-lheight: 32px;
+$sitelist-color: #ffffff;
+$sitelist-weight: 700;
+$sitelist-transform: uppercase;
+
+
+.site-list__item {
+  background-color: $bg-list;
+  font-family: $sitelist-family;
+  font-size: $sitelist-size;
+  line-height: $sitelist-lheight;
+  color: $sitelist-color;
+  font-weight: $sitelist-weight;
+  text-transform: $sitelist-transform;
+}

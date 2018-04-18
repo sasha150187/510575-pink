@@ -1,0 +1,34 @@
+$bgcolor-information: #1d2631;
+$link-family: 'Open Sans', sans-serif;
+$link-size: 18px;
+$link-lheight: 18px;
+$link-color: #ffffff;
+$link-weight: 700;
+$link-bg-color: #1d2631;
+$avail-family:'Open Sans', sans-serif;
+$avail-lheight: 24px;
+$avail-color: #ffffff;
+$avail-weight: 300;
+$avail-size: 14px;
+
+.information {
+  background-color: $bgcolor-information;
+}
+
+.information__link {
+  background-color: $link-bg-color;
+  font-family: $link-size;
+  font-size: $link-size;
+  line-height: $link-lheight;
+  color: $link-color;
+  font-weight: $link-weight;
+  background-color: $link-bg-color;
+}
+
+.information__availability {
+  font-family: $avail-family;
+  font-size: $avail-size;
+  line-height: $avail-lheight;
+  color: $avail-color;
+  font-weight: $avail-weight;
+}

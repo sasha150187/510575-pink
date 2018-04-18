@@ -1,0 +1,15 @@
+$bg-main-nav: url("../../img/iphone-hand-mobile@1x.png");
+$navlist: rgba(29, 38, 49, 0.3);
+$nav-active: #283645;
+
+.main-nav {
+  background-image: $bg-main-nav;
+}
+
+.main-nav__list {
+  background-color: $navlist;
+}
+
+.main-nav--active {
+  background-color: $nav-active;
+}
