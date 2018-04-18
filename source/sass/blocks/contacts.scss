@@ -1,0 +1,47 @@
+$shape: url("../../img/footer-shape.png");
+$ttl-family:'Open Sans', sans-serif;
+$ttl-size: 24px;
+$ttl-lheight: 24px;
+$ttl-color: #283645;
+$ttl-weight: 300;
+$mob-family:'Open Sans', sans-serif;
+$mob-size: 18px;
+$mob-lheight: 18px;
+$mob-color: #283645;
+$mob-weight: 700;
+$link-family:'Open Sans', sans-serif;
+$link-size: 24px;
+$link-lheight: 24px;
+$link-color: #d22856;
+$link-weight: 300;
+
+
+.contacts__list {
+  background-image: $shape;
+}
+
+.contacts__title {
+  font-family: $ttl-family;
+  font-size: $ttl-size;
+  line-height: $ttl-lheight;
+  color: $ttl-color;
+  font-weight: $ttl-weight;
+}
+
+.contacts__mobile,
+.contacts__mail,
+.contacts__invitaition {
+  font-family: $mob-family;
+  font-size: $mob-size;
+  line-height: $mob-lheight;
+  color: $mob-color;
+  font-weight: $mob-weight;
+}
+
+.contacts__link {
+  font-family: $link-family;
+  font-size: $link-size;
+  line-height: $link-lheight;
+  color: $link-color;
+  font-weight: $link-weight;
+}
