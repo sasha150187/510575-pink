@@ -1,0 +1,33 @@
+.price__header {
+  background-color: $text-color;
+}
+
+.price__list {
+  background: url("../../img/price-shape.png") no-repeat 50% 50%;
+}
+
+.price__tariff {
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 30px;
+  color: $white-color;
+  font-weight: 700;
+}
+
+.price__value {
+  font-family: $font-family;
+  font-size: 24px;
+  line-height: 30px;
+  color: $white-color;
+  font-weight: 300;
+}
+
+.price__pink,
+.price__smile,
+.price__comments {
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 30px;
+  color: $white-color;
+  font-weight: 400;
+}

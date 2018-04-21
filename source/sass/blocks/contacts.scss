@@ -1,0 +1,37 @@
+.contacts__list {
+  background: url("../../img/bg-triangle-white-footer.svg") no-repeat 50% 50%;
+}
+
+.contacts__title {
+  font-family: $font-family;
+  font-size: 24px;
+  line-height: 24px;
+  color: $text-color;
+  font-weight: 300;
+}
+
+.contacts__mobile,
+.contacts__mail,
+.contacts__invitaition {
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 18px;
+  color: $text-color;
+  font-weight: 700;
+}
+
+.contacts__link {
+  font-family: $font-family;
+  font-size: 24px;
+  line-height: 24px;
+  color:$color-pink;
+  font-weight: 300;
+}
+
+.contacts__adress {
+  font-family: $font-family;
+  font-size: 24px;
+  line-height: 24px;
+  color:$color-pink;
+  font-weight: 300;
+}

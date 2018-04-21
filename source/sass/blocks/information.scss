@@ -1,0 +1,20 @@
+.information {
+  background-color: $info-color;
+}
+
+.information__link {
+  background-color: $info-color;
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 18px;
+  color: $white-color;
+  font-weight: 700;
+}
+
+.information__availability {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 24px;
+  color: $white-color;
+  font-weight: 300;
+}

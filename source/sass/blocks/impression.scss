@@ -1,0 +1,16 @@
+.person-impression__label {
+  font-family: $font-family;
+  font-size: 24px;
+  line-height: 24px;
+  color: $color-pink;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.person-impression__textarea {
+  border: 2px solid $border-color;
+}
+
+.person-impression__button {
+  background-color: $btn-color;
+}
