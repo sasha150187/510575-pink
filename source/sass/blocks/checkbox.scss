@@ -1,0 +1,19 @@
+.checkbox-filter {
+  background-color: $bg-light-gray;
+}
+
+.checkbox-filter__legend {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: $font-family;
+  color: $color-pink;
+}
+
+.checkbox-filter__label {
+  font-family: $font-family;
+  font-size: 24px;
+  line-height: 24px;
+  color: $text-color;
+  font-weight: 400;
+}

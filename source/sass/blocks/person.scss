@@ -1,0 +1,12 @@
+.person-info__label {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 30px;
+  color: $color-pink;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.person-info__input {
+  border: 2px solid $border-color;
+}

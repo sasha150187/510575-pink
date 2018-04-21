@@ -1,0 +1,11 @@
+.main-nav {
+  background-image: url("../../img/iphone-hand-mobile@1x.png") no-repeat 50% 50%;
+}
+
+.main-nav__list {
+  background-color: $nav-color;
+}
+
+.main-nav--active {
+  background-color: $text-color;
+}
