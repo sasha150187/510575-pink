@@ -38,6 +38,7 @@
 @media (min-width: $tablet) {
   .study-info {
     position: relative;
+
     &::after {
       content: "";
       position: absolute;

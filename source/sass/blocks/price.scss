@@ -3,6 +3,9 @@
 }
 
 .price__list {
+  display: flex;
+  width: 540px;
+  vertical-align: middle;
   background: url("../../img/price-shape.png") no-repeat 50% 50%;
   border: 2px solid $border-color;
 }
@@ -37,12 +40,6 @@
   color: $text-color;
   font-weight: 400;
   text-transform: uppercase;
-}
-
-.price__list {
-  display: flex;
-  width: 540px;
-  vertical-align: middle;
 }
 
 .price {

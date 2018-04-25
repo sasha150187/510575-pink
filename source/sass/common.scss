@@ -26,11 +26,13 @@ html {
   box-sizing: border-box;
 }
 
-*,*::before,*::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
-.visually-hidden{
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -57,6 +59,7 @@ body {
     min-width: $tablet;
   }
 }
+
 @media (min-width: $desktop) {
   .container {
     min-width: $desktop;

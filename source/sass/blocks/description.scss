@@ -20,16 +20,17 @@
 .description__list {
   position: relative;
   padding-bottom: 320px;
-  &::after {
-    content: "";
-    position: absolute;
-    background-image: url("../../img/iphone-screen-mobile@1x.png");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    width: 157px;
-    height: 320px;
-    bottom: 0;
-    left: 70px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url("../../img/iphone-screen-mobile@1x.png");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      width: 157px;
+      height: 320px;
+      bottom: 0;
+      left: 70px;
   }
 }
 
@@ -76,6 +77,7 @@
     width: 310px;
     margin-left: 310px;
     padding-bottom: 0;
+
     &::after {
       content: "";
       position: absolute;
@@ -99,8 +101,8 @@
 
 @media (min-width: $tablet) {
   .description {
-  height: 270px;
-  position: relative;
+    height: 270px;
+    position: relative;
   }
 }
 
@@ -152,6 +154,7 @@
   .description__item:last-child {
     width: 400px;
     position: relative;
+
     &::before {
       content: "";
       position: absolute;
