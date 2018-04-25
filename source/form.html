@@ -1,29 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>Страница формы Pink</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="form-header">
+    <header class="page-header">
+      <div class="container">
       <nav class="main-nav">
         <a class="main-nav__logo-link">
-          <img src="" width="75" height="22" alt="Логотип Pink" class="main-nav__logo-image">
+          <img src="../img/logo-pink-white-mobile.svg" width="75" height="22" alt="Логотип Pink" class="main-nav__logo-image">
+        </a>
+        <a class="main-nav__logo-tablet">
+          <img src="../img/logotype-white-tablet.png" width="147" height="40" alt="Логотип Pink" class="main-nav__logo-image">
+        </a>
+        <a class="main-nav__logo-desktop">
+          <img src="../img/logotype-white-desktop.png" width="147" height="40" alt="Логотип Pink" class="main-nav__logo-image">
         </a>
         <button class="main-nav__toggle" type="button">Открыть меню</button>
         <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--active"><a href="#">главная</a></li>
+          <li class="site-list__item site-list__item--active"><a href="index.html">главная</a></li>
           <li class="site-list__item"><a href="#">фотографии</a></li>
           <li class="site-list__item"><a>конкурс</a></li>
           <li class="site-list__item"><a href="#">html academy</a></li>
         </ul>
       </nav>
       <h2 class="form-header__competition-title">Конкурс на самое безбашенное путешествие с Пинк</h2>
+    </div>
     </header>
     <main class="form-main">
-      <h3 class="competition-text">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 на вашу бонусную карту
-      </h3>
+      <div class="container">
+        <h3 class="competition-text">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 на вашу бонусную карту
+        </h3>
+        <h3 class="feel-in">Пожалуйста, заполните форму ниже:</h3>
       <form action="https://echo.htmlacademy.ru" class="form" method="post">
         <fieldset class="person-info">
           <legend></legend>
@@ -118,12 +129,14 @@
           </ul>
         </fieldset>
       </form>
+      </div>
     </main>
     <footer class="page-footer">
+      <div class="container">
       <section class="social">
         <div class="social__logo">
-          <a href="#" class="social__link">
-            <img src="" alt="" class="social__img">
+          <a href="#" class="social__link-img">
+            <img src="../img/logo-pink-blue-mobile.svg" alt="" class="social__img" width="147" height="40">
           </a>
         </div>
         <div class="socials">
@@ -135,17 +148,19 @@
         </div>
         <div class="socials__copyright">
           <span class="socials__developer">
+            Разработано
           </span>
         </div>
       </section>
+      </div>
     </footer>
     <div class="failure">
-      <h2  class="failure__title">Что-то пошло не так!  </h2>
+      <h2  class="failure__title">Что-то пошло не так!</h2>
       <p class="failure__text">Проверьте поля, выделенные красным, скореt всего вы забыли из заполнить</p>
       <a href="#" class="failure__link">ok</a>
     </div>
     <div class="submition">
-      <h2  class="submition__title">Что-то пошло не так!  </h2>
+      <h2  class="submition__title">Что-то пошло не так!</h2>
       <p class="submition__text">Проверьте поля, выделенные красным, скореt всего вы забыли из заполнить</p>
       <a href="#" class="submition__link">закрыть окно</a>
     </div>

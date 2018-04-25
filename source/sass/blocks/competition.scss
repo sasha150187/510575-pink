@@ -3,5 +3,29 @@
   font-size: 14px;
   line-height: 30px;
   color: $text-color;
-  font-weight: 300;
+  font-weight: 400;
+  text-align: center;
+}
+
+.feel-in {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 30px;
+  color: $text-color;
+  font-weight: 400;
+  text-align: center;
+  display: none;
+}
+
+@media (min-width: $tablet) {
+  .competition-text {
+    width: 400px;
+    margin-left: 110px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .feel-in {
+    display: block;
+  }
 }

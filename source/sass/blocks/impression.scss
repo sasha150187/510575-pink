@@ -14,3 +14,21 @@
 .person-impression__button {
   background-color: $btn-color;
 }
+
+.person-impression {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.person-impression__list {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (min-width: $desktop) {
+  .person-impression {
+    width: 940px;
+  }
+}

@@ -3,7 +3,11 @@
 }
 
 .price__list {
+  display: flex;
+  width: 540px;
+  vertical-align: middle;
   background: url("../../img/price-shape.png") no-repeat 50% 50%;
+  border: 2px solid $border-color;
 }
 
 .price__tariff {
@@ -12,6 +16,9 @@
   line-height: 30px;
   color: $white-color;
   font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
 }
 
 .price__value {
@@ -20,14 +27,47 @@
   line-height: 30px;
   color: $white-color;
   font-weight: 300;
+  margin: 0;
+  text-align: center;
 }
 
 .price__pink,
 .price__smile,
 .price__comments {
   font-family: $font-family;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 30px;
-  color: $white-color;
+  color: $text-color;
   font-weight: 400;
+  text-transform: uppercase;
+}
+
+.price {
+  background-color: $bg-light-gray;
+  padding: 20px 20px;
+}
+
+.price__item:not(:last-child) {
+  border-right: 2px solid $border-color;
+}
+
+.price__item {
+  width: 280px;
+  background-color: $white-color;
+}
+
+.price__pink,
+.price__smile {
+  border-bottom: 2px solid $border-color;
+}
+
+.price__overflow {
+  width: 320px;
+  overflow: hidden;
+}
+
+@media (min-width: $tablet) {
+  .price__overflow {
+    overflow: visible;
+  }
 }
