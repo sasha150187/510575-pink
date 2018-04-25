@@ -10,3 +10,21 @@
 .person-info__input {
   border: 2px solid $border-color;
 }
+
+.person-info {
+  border:  none;
+  padding: 0;
+  margin: 0;
+}
+
+.person-info__list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: $desktop) {
+  .person-info {
+    width: 470px;
+    order: -11;
+  }
+}

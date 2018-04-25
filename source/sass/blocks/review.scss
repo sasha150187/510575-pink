@@ -5,12 +5,30 @@
   color: $black;
   font-weight: 700;
   font-style: normal;
+  text-align: center;
+  display: block;
 }
 
 .review__text {
   font-family: $font-family;
   font-size: 14px;
   line-height: 24px;
-  color: $black;
-  font-weight: 300;
+  color: $text-color;
+  font-weight: 400;
+  text-align: center;
+}
+
+.review__list {
+  display: flex;
+}
+
+.review__item {
+  margin: 0;
+}
+
+@media (min-width: $tablet) {
+  .review__item {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

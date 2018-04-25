@@ -1,0 +1,33 @@
+.radio-filter {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.radio-filter__legend {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: $font-family;
+  color: $color-pink;
+}
+
+.radio-filter__label {
+  font-family: $font-family;
+  font-size: 24px;
+  line-height: 24px;
+  color: $text-color;
+  font-weight: 400;
+}
+
+.radio-filter__list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: $desktop) {
+  .radio-filter {
+    width: 470px;
+    order: -10;
+  }
+}

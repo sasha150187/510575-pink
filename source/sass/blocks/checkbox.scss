@@ -1,5 +1,7 @@
 .checkbox-filter {
-  background-color: $bg-light-gray;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .checkbox-filter__legend {
@@ -16,4 +18,30 @@
   line-height: 24px;
   color: $text-color;
   font-weight: 400;
+}
+
+.checkbox-filter__list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: $desktop) {
+  .checkbox-filter {
+    width: 940px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .checkbox-filter__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: $desktop) {
+  .checkbox-filter__item {
+    width: 300px;
+    flex-wrap: wrap;
+  }
 }

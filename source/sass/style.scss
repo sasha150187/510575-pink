@@ -1,7 +1,8 @@
 @import "variables.scss";
+@import "common.scss";
 @import "blocks/catalog.scss";
 @import "blocks/catalog-main-title.scss";
-@import "blocks/catalog.scss";
+@import "blocks/catalog-title.scss";
 @import "blocks/checkbox.scss";
 @import "blocks/contacts.scss";
 @import "blocks/description.scss";
@@ -11,10 +12,13 @@
 @import "blocks/information.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/person-contacts.scss";
-@import "blocks/person.scss";
+@import "blocks/person-info.scss";
 @import "blocks/price.scss";
 @import "blocks/radio.scss";
 @import "blocks/review.scss";
 @import "blocks/site-list.scss";
 @import "blocks/social.scss";
 @import "blocks/submition.scss";
+@import "blocks/page-header.scss";
+@import "blocks/study.scss";
+@import "blocks/competition.scss";

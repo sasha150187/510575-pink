@@ -35,3 +35,22 @@
   color: $text-color;
   font-weight: 400;
 }
+
+.catalog__list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: $tablet) {
+  .catalog__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog__item {
+    width: 300px;
+  }
+}
