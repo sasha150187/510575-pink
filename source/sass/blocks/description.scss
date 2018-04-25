@@ -22,15 +22,15 @@
   padding-bottom: 320px;
 
     &::after {
-      content: "";
-      position: absolute;
-      background-image: url("../../img/iphone-screen-mobile@1x.png");
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-      width: 157px;
-      height: 320px;
-      bottom: 0;
-      left: 70px;
+    content: "";
+    position: absolute;
+    background-image: url("../../img/iphone-screen-mobile@1x.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 157px;
+    height: 320px;
+    bottom: 0;
+    left: 70px;
   }
 }
 
