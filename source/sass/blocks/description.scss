@@ -21,7 +21,7 @@
   position: relative;
   padding-bottom: 320px;
 
-    &::after {
+  &::after {
     content: "";
     position: absolute;
     background-image: url("../../img/iphone-screen-mobile@1x.png");
