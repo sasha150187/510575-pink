@@ -10,19 +10,19 @@
     <header class="page-header">
       <div class="container">
       <nav class="main-nav">
-        <a class="main-nav__logo-link">
+        <a class="main-nav__logo-link" href="index.html">
           <img src="../img/logo-pink-white-mobile.svg" width="75" height="22" alt="Логотип Pink" class="main-nav__logo-image">
         </a>
-        <a class="main-nav__logo-tablet">
+        <a class="main-nav__logo-tablet" href="index.html">
           <img src="../img/logotype-white-tablet.png" width="147" height="40" alt="Логотип Pink" class="main-nav__logo-image">
         </a>
-        <a class="main-nav__logo-desktop">
+        <a class="main-nav__logo-desktop" href="index.html">
           <img src="../img/logotype-white-desktop.png" width="147" height="40" alt="Логотип Pink" class="main-nav__logo-image">
         </a>
         <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <ul class="main-nav__list site-list">
+        <ul class="main-nav__list site-list visually-hidden">
           <li class="site-list__item site-list__item--active"><a href="index.html">главная</a></li>
-          <li class="site-list__item"><a href="#">фотографии</a></li>
+          <li class="site-list__item"><a href="photo.html">фотографии</a></li>
           <li class="site-list__item"><a>конкурс</a></li>
           <li class="site-list__item"><a href="#">html academy</a></li>
         </ul>
@@ -32,24 +32,22 @@
     </header>
     <main class="form-main">
       <div class="container">
-        <h3 class="competition-text">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 на вашу бонусную карту
-        </h3>
-        <h3 class="feel-in">Пожалуйста, заполните форму ниже:</h3>
+        <h3 class="competition-text">Поделитесь своей историей и получите шанс выиграть ценный приз &mdash; 1000 миль на вашу бонусную карту!<span> Пожалуйста, заполните форму ниже:</span></h3>
       <form action="https://echo.htmlacademy.ru" class="form" method="post">
         <fieldset class="person-info">
           <legend></legend>
           <ul class="person-info__list">
             <li class="person-info__item">
               <label for="surname" class="person-info__label">фамилия:</label>
-              <input type="text" id="surname" class="person-info__input" name="surname">
+              <input type="text" id="surname" class="person-info__input" name="surname" placeholder="Укажите фамилию *">
             </li>
             <li class="person-info__item">
               <label for="name" class="person-info__label">имя:</label>
-              <input type="text" id="name" class="person-info__input" name="name">
+              <input type="text" id="name" class="person-info__input person-info__input--long" name="name" placeholder="Введите ваше имя *">
             </li>
             <li class="person-info__item">
               <label for="second-name" class="person-info__label">oтчество:</label>
-              <input type="text" id="second-name" class="person-info__input" name="second-name">
+              <input type="text" id="second-name" class="person-info__input" name="second-name" placeholder="Ну и отчество тоже">
             </li>
           </ul>
         </fieldset>
@@ -85,15 +83,15 @@
           </ul>
         </fieldset>
         <fieldset class="person-contacts">
-          <legend></legend>
+          <legend class="person-contacts__legend">Контактная информация</legend>
           <ul class="person-contacts__list">
             <li class="person-contacts__item">
               <label for="phone-numer" class="person-contacts__label">номер телефона</label>
-              <input type="tel" name="phone-numer" value="phone-numer" id="phone-numer" class="person-contacts__input">
+              <input type="tel" name="phone-numer" id="phone-numer" class="person-contacts__input" placeholder="Номер, пожалуйста">
             </li>
             <li class="person-contacts__item">
-              <label for="mail" class="person-contacts__label">адресс почты</label>
-              <input type="email" name="mail" value="mail" id="mail" class="person-contacts__input">
+              <label for="mail" class="person-contacts__label">адрес почты</label>
+              <input type="email" name="mail" id="mail" class="person-contacts__input" placeholder="Введите почту *">
             </li>
           </ul>
         </fieldset>
@@ -117,17 +115,18 @@
           </ul>
         </fieldset>
         <fieldset class="person-impression">
-          <legend></legend>
+          <legend class="person-impression__legend">Опишите свои эмоции</legend>
           <ul class="person-impression__list">
             <li class="person-impression__item">
               <label for="emotion-description" class="person-impression__label">Опишите свои эмоции</label>
-              <textarea name="emotion-description" id="emotion-description" class="person-impression__textarea"></textarea>
-            </li>
-            <li class="person-impression__item">
-              <input type="submit" value="Отправить форму">
+              <textarea name="emotion-description" id="emotion-description" class="person-impression__textarea" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
             </li>
           </ul>
         </fieldset>
+        <div class="person-impression__block">
+          <input type="submit" value="Отправить форму" class="person-impression__button">
+          <h2 class="person-impression__note">* — обязательные <span class="person-impression__note-addition">для заполнения</span> поля</h2>
+        </div>
       </form>
       </div>
     </main>
@@ -137,6 +136,9 @@
         <div class="social__logo">
           <a href="#" class="social__link-img">
             <img src="../img/logo-pink-blue-mobile.svg" alt="" class="social__img" width="147" height="40">
+          </a>
+          <a href="#" class="social__link-desktop">
+            <img src="../img/logotype-blue-desktop.png" alt="" class="social__img" width="147" height="40">
           </a>
         </div>
         <div class="socials">
@@ -154,7 +156,7 @@
       </section>
       </div>
     </footer>
-    <div class="failure">
+    <!-- <div class="failure">
       <h2  class="failure__title">Что-то пошло не так!</h2>
       <p class="failure__text">Проверьте поля, выделенные красным, скореt всего вы забыли из заполнить</p>
       <a href="#" class="failure__link">ok</a>
@@ -163,6 +165,6 @@
       <h2  class="submition__title">Что-то пошло не так!</h2>
       <p class="submition__text">Проверьте поля, выделенные красным, скореt всего вы забыли из заполнить</p>
       <a href="#" class="submition__link">закрыть окно</a>
-    </div>
+    </div> -->
   </body>
 </html>

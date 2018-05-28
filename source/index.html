@@ -9,17 +9,17 @@
 <body>
   <header class="page-header">
     <div class="container">
-      <nav class="main-nav main-nav--hand">
-        <a class="main-nav__logo-link">
+      <nav class="main-nav main-nav--closed main-nav--opened main-nav--nojs">
+        <a class="main-nav__logo main-nav__logo-link">
           <img src="../img/logo-pink-white-mobile.svg" width="75" height="22" alt="Логотип Pink" class="main-nav__logo-image">
         </a>
-        <a class="main-nav__logo-tablet">
+        <a class="main-nav__logo main-nav__logo-tablet">
           <img src="../img/logotype-white-tablet.png" width="147" height="40" alt="Логотип Pink" class="main-nav__logo-image">
         </a>
         <a class="main-nav__logo-desktop">
           <img src="../img/logotype-white-desktop.png" width="147" height="40" alt="Логотип Pink" class="main-nav__logo-image">
         </a>
-        <button class="main-nav__toggle" type="button"></button>
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--active"><a>Главная</a></li>
           <li class="site-list__item"><a href="photo.html">Фотографии</a></li>
@@ -31,9 +31,9 @@
         <h2 class="information__title">Взгляните на жизнь иначе!</h2>
         <a href="#" class="information__link">Скачать приложение</a>
         <ul class="information-list">
-          <li class="information-list__item"><a href="#" class="information-list__link"><img src="../img/logo-apple.svg" alt="айфон" width="47" height="56"></a></li>
-          <li class="information-list__item"><a href="#" class="information-list__link"><img src="../img/logo-android.svg" alt="андроид" width="50" height="50"></a></li>
-          <li class="information-list__item"><a href="#" class="information-list__link"><img src="../img/logo-microsoft.svg" alt="виндоус" width="50" heigh="50"></a></li>
+          <li class="information-list__item"><a href="#" class="information-list__link information-list__link--ios"></a></li>
+          <li class="information-list__item"><a href="#" class="information-list__link information-list__link--android"></a></li>
+          <li class="information-list__item"><a href="#" class="information-list__link information-list__link--microsoft"></a></li>
         </ul>
         <p class="information__availability">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
       </div>
@@ -67,7 +67,7 @@
     <div class="study-info">
       <div class="container">
         <div class="study">
-          <h2 class="study__title">Эффект  на 24 часа!</h2>
+          <h2 class="study__title">Эффект на 24 часа!</h2>
           <p class="study__text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
           <a href="" class="study__link">Узнать больше об исследовании</a>
         </div>
@@ -81,8 +81,9 @@
               <cite class="review__author-name">
                 Николай Петров
               </cite>
+              <p class="review-description">25 лет, водитель трамвая</p>
               <p class="review__text">
-                Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!
+                &laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;
               </p>
             </blockquote>
             <blockquote class="review__item slider__item visually-hidden">
@@ -112,35 +113,44 @@
     </div>
     <section class="price">
       <div class="price__wrapper slider">
-        <div class="container">
+        <div class="container container--price">
           <div class="price__overflow">
             <ul class="price__list slider__list">
+              <li class="price__item slider__item">
+                <div class="price__header price__header--none">
+                  <b class="price__tariff price__tariff--none">база</b>
+                  <p class="price__value price__value--none">1,99 usd</p>
+                </div>
+                <p class="price__pink">Розовый фильтр</p>
+                <p class="price__smile">Смайлики</p>
+                <p class="price__comments">Комментарии</p>
+              </li>
               <li class="price__item slider__item">
                 <div class="price__header">
                   <b class="price__tariff">база</b>
                   <p class="price__value">1,99 usd</p>
                 </div>
-                <p class="price__pink price__pink--yes">розовый фильтр</p>
-                <p class="price__smile price__smile--no">смайлики</p>
-                <p class="price__comments price__comments--no">комментарии</p>
+                <p class="price__pink price__pink--yes">Розовый фильтр</p>
+                <p class="price__smile price__smile--no">Смайлики</p>
+                <p class="price__comments price__comments--no">Комментарии</p>
               </li>
               <li class="price__item slider__item">
                 <div class="price__header">
                   <b class="price__tariff">стандарт</b>
                   <p class="price__value">3,99 usd</p>
                 </div>
-                <p class="price__pink price__pink--yes">розовый фильтр</p>
-                <p class="price__smile price__smile--yes">смайлики</p>
-                <p class="price__comments price__comments--no">комментарии</p>
+                <p class="price__pink price__pink--yes">Розовый фильтр</p>
+                <p class="price__smile price__smile--yes">Смайлики</p>
+                <p class="price__comments price__comments--no">Комментарии</p>
               </li>
               <li class="price__item slider__item">
-                <div class="price__header">
+                <div class="price__header price__header--no">
                   <b class="price__tariff">анлим</b>
                   <p class="price__value">9,99 usd</p>
                 </div>
-                <p class="price__pink price__pink--yes">розовый фильтр</p>
-                <p class="price__smile price__smile--yes">смайлики</p>
-                <p class="price__comments price__comments--yes">комментарии</p>
+                <p class="price__pink price__pink--yes">Розовый фильтр</p>
+                <p class="price__smile price__smile--yes">Смайлики</p>
+                <p class="price__comments price__comments--yes">Комментарии</p>
               </li>
             </ul>
           </div>
@@ -154,22 +164,22 @@
     </section>
   </main>
   <footer class="index-page-footer">
-    <div class="container">
-      <section class="contacts">
+    <section class="contacts">
         <div class="contacts__wrapper">
+          <div class="container">
           <h2 class="contacts__title">Остались вопросы? Свяжитесь с нами!</h2>
           <div class="contacts__list">
             <div class="contacts__block">
               <span class="contacts__mobile">
-                звоните:
+                Звоните:
               </span>
               <a href="tel:+78125556666" class="contacts__link">+7 (812) 555-66-66</a>
             </div>
-            <div class="contacts__block">
+            <div class="contacts__block contacts__block--mid">
               <span class="contacts__mail">
-                пишите:
+                Пишите:
               </span>
-              <a href="mailto:mail@htmlacademy.ru" class="contacts__link">mail@htmlacademy.ru</a>
+              <a href="mailto:mail@htmlacademy.ru" class="contacts__link contacts__link--mail">mail@htmlacademy.ru</a>
             </div>
             <div class="contacts__block contacts__block--long">
               <span class="contacts__invitaition">
@@ -178,7 +188,9 @@
               <p class="contacts__adress">ул. Большая Конюшенная, 19/8</p>
             </div>
           </div>
-          <div class="map">
+        </div>
+        <div class="map">
+        <div class="container container--map">
           </div>
         </div>
       </section>
@@ -190,6 +202,9 @@
         <div class="social__logo">
           <a href="#" class="social__link-img">
             <img src="../img/logo-pink-blue-mobile.svg" alt="" class="social__img" width="147" height="40">
+          </a>
+          <a href="#" class="social__link-desktop">
+            <img src="../img/logotype-blue-desktop.png" alt="" class="social__img" width="147" height="40">
           </a>
         </div>
         <div class="socials">
@@ -207,4 +222,20 @@
       </section>
     </div>
   </footer>
+  <script>
+  var navMain = document.querySelector('.main-nav');
+  var navToggle = document.querySelector('.main-nav__toggle');
+
+  navMain.classList.remove('main-nav--nojs');
+
+  navToggle.addEventListener('click', function() {
+    if (navMain.classList.contains('main-nav--closed')) {
+      navMain.classList.remove('main-nav--closed');
+      navMain.classList.add('main-nav--opened');
+    } else {
+      navMain.classList.add('main-nav--closed');
+      navMain.classList.remove('main-nav--opened');
+    }
+  });
+</script>
 </body>
