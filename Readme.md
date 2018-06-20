@@ -1,5 +1,4 @@
-# Личный проект «Пинк»  
+# Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Ковзанович Александр].
+* Студент: [Саша Ковзанович]
 * Наставник: [Вадим Новаш]
----
